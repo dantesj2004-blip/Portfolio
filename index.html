@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alejandro Sánchez — Diseñador & Programador Web</title>
+<link rel="icon" type="image/png" href="assets/mi-foto.png">
+<link rel="apple-touch-icon" href="assets/mi-foto.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/portfolio.css">
+<script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="logo">ALEJANDRO<span>.DEV</span></div>
+    <div class="links" id="navLinks">
+      <a href="#inicio">Inicio</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#certificados">Certificados</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <div style="display:flex;gap:.6rem;align-items:center">
+      <a class="btn" href="#contacto" style="padding:.5rem 1rem"><i data-lucide="mail" class="ico"></i>Contrátame</a>
+      <button class="burger" id="burger" aria-label="Menú"><i data-lucide="menu"></i></button>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="inicio">
+  <div class="container hero-grid">
+    <div>
+      <div class="badge"><i></i> Disponible para proyectos · Bétera, Valencia</div>
+      <h1>ALEJANDRO<br><span class="outline">SÁNCHEZ</span></h1>
+      <div class="subtitle">Diseñador gráfico, Community Manager y Programador Web.</div>
+      <p class="desc">Apasionado por la informática y el diseño web. Experiencia en marketing digital, SEO, programación web y diseño de interfaces. Busco contribuir al éxito de proyectos innovadores.</p>
+      <div class="hero-cta">
+        <a class="btn gold" href="#contacto"><i data-lucide="send" class="ico"></i>Contactar</a>
+        <a class="btn ghost" href="#experiencia">Ver experiencia <i data-lucide="arrow-down" class="ico"></i></a>
+        <a class="btn ghost" href="assets/CV-Alejandro-Sanchez.pdf" download><i data-lucide="download" class="ico"></i>Descargar CV</a>
+      </div>
+      <div class="stats">
+        <div><b>1 año</b><span>de experiencia</span></div>
+        <div><b data-count="7">0</b><span>Certificados</span></div>
+        <div><b data-count="3">0</b><span>Empresas</span></div>
+      </div>
+    </div>
+
+    <div class="photo-zone">
+      <div class="photo-scene" id="photoScene">
+        <!-- PON TU FOTO AQUÍ: guarda tu foto del CV como assets/mi-foto.png (o .jpg) -->
+        <!-- Si prefieres SVG: cambia el src a assets/mi-foto.svg -->
+        <img id="profilePhoto" src="assets/mi-foto.png" alt="Foto de Alejandro Sánchez"
+          onerror="this.onerror=null;this.src='assets/mi-foto.svg';" />
+        <div class="photo-shadow" id="photoShadow"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="marquee"><div class="marquee-track"><span>HTML <em>★</em> CSS <em>★</em> JS <em>★</em> SQL <em>★</em> PHP <em>★</em> JAVA <em>★</em> PYTHON <em>★</em> DJANGO <em>★</em> FIGMA <em>★</em> CANVA <em>★</em> PHOTOSHOP <em>★</em> BUFFER <em>★</em> HOOTSUITE <em>★</em> WORDPRESS <em>★</em> SEO <em>★</em> N8N <em>★</em> IA <em>★</em>&nbsp;</span><span aria-hidden="true">HTML <em>★</em> CSS <em>★</em> JS <em>★</em> SQL <em>★</em> PHP <em>★</em> JAVA <em>★</em> PYTHON <em>★</em> DJANGO <em>★</em> FIGMA <em>★</em> CANVA <em>★</em> PHOTOSHOP <em>★</em> BUFFER <em>★</em> HOOTSUITE <em>★</em> WORDPRESS <em>★</em> SEO <em>★</em> N8N <em>★</em> IA <em>★</em>&nbsp;</span></div></div>
+
+<section id="sobre">
+  <div class="container grid2">
+    <div class="card reveal">
+      <h2 class="sec">SOBRE <span>MÍ</span></h2>
+      <p class="sec-sub">Diseño + código + marketing</p>
+      <p style="color:#d6d6dc;line-height:1.7">Diseño de interfaces y webs con Figma, web scraping con Python, posicionamiento SEO y SEO Blog, diseño de posts, análisis y posicionamiento en redes sociales. Front-End HTML/CSS/JS, Back-End Ruby, agentes de IA (N8N), Python/Django y bases de datos.</p>
+      <div style="margin-top:1rem">
+        <span class="tag">Figma</span><span class="tag">SEO</span><span class="tag">Python</span><span class="tag">Django</span><span class="tag">Ruby</span><span class="tag">N8N</span><span class="tag">WordPress</span>
+      </div>
+    </div>
+    <div class="card reveal">
+      <h2 class="sec">EDUCACIÓN</h2>
+      <p class="sec-sub">Aula Campus</p>
+      <div class="timeline">
+        <div class="t-item"><small>2023 / 2024</small><h3>SMR — Sistemas Microinformáticos en Red</h3></div>
+        <div class="t-item"><small>2024 / 2026</small><h3>DAW — Desarrollo de Aplicaciones Web</h3></div>
+        <div class="t-item"><small>2026 / 2027</small><h3>DAM — Desarrollo Aplicaciones Multiplataforma</h3></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experiencia" style="padding-top:0">
+  <div class="container">
+    <h2 class="sec reveal">EXPERIENCIA</h2>
+    <p class="sec-sub reveal">~1 año de experiencia total</p>
+    <div class="grid2">
+      <div class="card reveal">
+        <small style="color:var(--gold)"><i data-lucide="briefcase" class="ico"></i> 2023 - 2024</small>
+        <h3>NIGHTSTREAM</h3>
+        <p style="color:var(--pink);font-weight:600">Desarrollador, diseñador web y community manager</p>
+        <p style="color:#c9c9d1;margin-top:.6rem">Diseño de interfaces y diseño web con Figma, web scraping con Python, posicionamiento SEO y SEO Blog, diseño de posts, análisis y posicionamiento de publicaciones en redes sociales.</p>
+      </div>
+      <div class="card reveal">
+        <small style="color:var(--gold)"><i data-lucide="briefcase" class="ico"></i> 2024 - 2025</small>
+        <h3>TOPPIN GLOBAL S.L</h3>
+        <p style="color:var(--pink);font-weight:600">Desarrollador Web</p>
+        <p style="color:#c9c9d1;margin-top:.6rem">Diseño de interfaces, diseño web con Figma, creación de agentes de IA (N8N), Back-End en Ruby, desarrollo Front-End HTML, CSS y JS.</p>
+      </div>
+      <div class="card reveal">
+        <small style="color:var(--gold)"><i data-lucide="briefcase" class="ico"></i> 2025 - 2026</small>
+        <h3>GLOBAL BEE PROJECT</h3>
+        <p style="color:var(--pink);font-weight:600">Desarrollador Front-End</p>
+        <p style="color:#c9c9d1;margin-top:.6rem">Diseño de interfaces, diseño web con Figma, optimización y refactorización de código en Python y Python Django. Base de datos. Aprendizaje sobre arquitectura IT y apicultura.</p>
+      </div>
+      <div class="card reveal" style="background:linear-gradient(135deg,#c13584,#7a1d51);border:0">
+        <h3><i data-lucide="rocket" class="ico"></i> ¿Siguiente paso?</h3>
+        <p>Busco mi siguiente oportunidad para seguir aprendiendo y aportar.</p>
+        <br><a class="btn gold" href="#contacto"><i data-lucide="send" class="ico"></i>Hablemos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="habilidades" style="padding-top:0">
+  <div class="container">
+    <h2 class="sec reveal">HABILIDADES</h2>
+    <p class="sec-sub reveal">Stack principal</p>
+    <div class="skills">
+      <div class="card reveal"><h3><i data-lucide="code-2" class="ico"></i> HTML / CSS / JS</h3><div class="stars">★★★★★</div></div>
+      <div class="card reveal"><h3><i data-lucide="database" class="ico"></i> SQL</h3><div class="stars">★★★★★</div></div>
+      <div class="card reveal"><h3><i data-lucide="coffee" class="ico"></i> PHP / JAVA</h3><div class="stars">★★★★★</div></div>
+      <div class="card reveal"><h3><i data-lucide="terminal" class="ico"></i> PYTHON / DJANGO</h3><div class="stars">★★★<span class="off">★★</span></div></div>
+      <div class="card reveal"><h3><i data-lucide="pen-tool" class="ico"></i> FIGMA / CANVA / PHOTOSHOP</h3><div class="stars">★★★★<span class="off">★</span></div></div>
+      <div class="card reveal"><h3><i data-lucide="share-2" class="ico"></i> BUFFER / HOOTSUITE</h3><div class="stars">★★★★★</div></div>
+      <div class="card reveal"><h3><i data-lucide="globe" class="ico"></i> WORDPRESS</h3><div class="stars">★★★★★</div></div>
+      <div class="card reveal"><h3><i data-lucide="trending-up" class="ico"></i> SEO / MARKETING</h3><div class="stars">★★★★★</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="certificados" style="padding-top:0">
+  <div class="container">
+    <h2 class="sec reveal">CERTIFICADOS</h2>
+    <p class="sec-sub reveal">Formación continua</p>
+    <div class="cert">
+      <div class="card reveal"><i data-lucide="award" class="ico"></i> Cisco - Linux Unhatched <b style="color:var(--pink)">(2020)</b></div>
+      <div class="card reveal"><i data-lucide="award" class="ico"></i> Google - Productividad personal <b style="color:var(--pink)">(2020)</b></div>
+      <div class="card reveal"><i data-lucide="award" class="ico"></i> Google - Digitaliza tu negocio <b style="color:var(--pink)">(2020)</b></div>
+      <div class="card reveal"><i data-lucide="award" class="ico"></i> Google - Cloud Computing <b style="color:var(--pink)">(2021)</b></div>
+      <div class="card reveal"><i data-lucide="award" class="ico"></i> Google - Ciberseguridad en el teletrabajo <b style="color:var(--pink)">(2023)</b></div>
+      <div class="card reveal"><i data-lucide="award" class="ico"></i> Cisco - CCNAv7 Introduction to Networks <b style="color:var(--pink)">(2024)</b></div>
+      <div class="card reveal"><i data-lucide="award" class="ico"></i> UCAM - Técnico Superior en Análisis y Diseño de Software <b style="color:var(--pink)">(2025)</b></div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" style="padding-top:0">
+  <div class="container">
+    <div class="contact-box reveal">
+      <div>
+        <h2 class="sec">CONTACTO</h2>
+        <p>¿Hacemos algo grande? Escríbeme.</p>
+        <br>
+        <p><a class="big" href="mailto:dante.s.j.2004@gmail.com"><i data-lucide="mail" class="ico"></i> dante.s.j.2004@gmail.com</a></p>
+        <p><a class="big" href="tel:+34603539025"><i data-lucide="phone" class="ico"></i> (+34) 603 53 90 25</a></p>
+        <p><i data-lucide="map-pin" class="ico"></i> Bétera, Valencia</p>
+        <br>
+        <!-- Para activar la descarga: guarda tu CV como assets/CV-Alejandro-Sanchez.pdf -->
+        <a class="btn gold" href="assets/CV-Alejandro-Sanchez.pdf" download><i data-lucide="download" class="ico"></i>Descargar CV</a>
+      </div>
+      <div class="card" style="background:#151517">
+        <h3>Escríbeme rápido</h3>
+        <form id="contactForm" action="https://formsubmit.co/ajax/dante.s.j.2004@gmail.com" method="POST" style="display:grid;gap:.7rem;margin-top:.8rem">
+          <input type="text" name="_honey" style="display:none">
+          <input type="hidden" name="_subject" value="Nuevo mensaje desde tu portfolio">
+          <input required name="nombre" placeholder="Tu nombre" style="padding:.7rem;border-radius:10px;border:1px solid #ffffff22;background:#222;color:#fff">
+          <input required type="email" name="email" placeholder="Tu email" style="padding:.7rem;border-radius:10px;border:1px solid #ffffff22;background:#222;color:#fff">
+          <textarea required name="mensaje" placeholder="Hola Alejandro..." rows="3" style="padding:.7rem;border-radius:10px;border:1px solid #ffffff22;background:#222;color:#fff"></textarea>
+          <button class="btn gold" type="submit" id="sendBtn"><i data-lucide="send" class="ico"></i>Enviar</button>
+          <p id="formStatus" style="font-size:.85rem;min-height:1.2em"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>© <span id="year"></span> Alejandro Sánchez · Hecho con HTML + CSS + JS</footer>
+
+<script src="js/portfolio.js"></script>
+</body>
+</html>
